@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3f3f3;
+  }
+
+  #reset {
+    margin-bottom: 20px;
+  }
+  
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+  }
+  
+  .square {
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
